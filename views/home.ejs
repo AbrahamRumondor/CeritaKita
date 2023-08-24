@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Home</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 
           <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 mb-3 text-center mx-5 ">
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm ">
+          <div class="card mb-4 rounded-3 shadow-sm card_height">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal">Free</h4>
             </div>
@@ -28,13 +29,32 @@
               <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
               <ul class="list-unstyled mt-3 mb-4">
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              <div class=" w-100 position-absolute bottom-0 end-0 mb-2 post_buttom">
+
+                <div class="row mx-2 d-flex justify-content-center align-items-center mt-1">
+                  <div class="col-3 col-xl-2">
+                    <button type="button" class="vote_button m-1"><img src="img/thumbs_up2.png" class="vote_img" alt=""></button>
+                  </div>
+                  <div class="col-3 col-xl-2 ">
+                    <button type="button" class="vote_button m-1"><img src="img/thumbs_down2.png" class="vote_img" alt=""></button>
+                  </div>
+                  <div class="col-6 col-xl-3 font">
+                    xx Replies
+                  </div>
+                  <div class="col-12 col-xl-5">
+                    <button type="button" class="w-100 btn btn-lg btn-primary readAll_btn">Read more</button>
+                  </div>
+                  
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
-
+        
+        <!-- dummy start -->
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card mb-4 rounded-3 shadow-sm card_height">
             <div class="card-header py-3">
               <h4 class="my-0 fw-normal">Pro</h4>
             </div>
@@ -51,7 +71,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary card_height">
             <div class="card-header py-3 text-bg-primary border-primary">
               <h4 class="my-0 fw-normal">Enterprise</h4>
             </div>
@@ -70,7 +90,7 @@
 
 
         <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm card_height">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Free</h4>
               </div>
@@ -87,7 +107,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm card_height">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Pro</h4>
               </div>
@@ -104,7 +124,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary card_height">
               <div class="card-header py-3 text-bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Enterprise</h4>
               </div>
@@ -124,7 +144,7 @@
 
 
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm card_height">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Free</h4>
               </div>
@@ -141,7 +161,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card mb-4 rounded-3 shadow-sm card_height">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Pro</h4>
               </div>
@@ -158,7 +178,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary card_height">
               <div class="card-header py-3 text-bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Enterprise</h4>
               </div>
@@ -175,7 +195,8 @@
             </div>
           </div>
 
-        
+          <!-- dummy end -->
+
           <div class="container bottom-0">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>

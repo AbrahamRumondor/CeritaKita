@@ -1,0 +1,38 @@
+.card_height {
+    height: 300px;
+}
+
+.vote_img {
+    height: 25px;
+}
+
+.post_buttom {
+    border-top: 1px solid #D9D9D9;
+
+    
+}
+
+.vote_button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.readAll_btn {
+    height: 25px;
+    padding: 0;
+    font-size: 0.7rem;
+    width: 100%;
+    background-color: #D0F1FF;
+    color: #005C84;
+    border: none;
+
+}
+
+.font {
+    font-size: 0.9rem;
+}
